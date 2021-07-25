@@ -3,6 +3,10 @@ import * as React from 'react';
 import { ImageBackground, StyleSheet, TouchableOpacity, Text, View } from 'react-native';
 import home_screen from './assets/home_screen.png'; 
 
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
+
 export default function App() {
 
   return (

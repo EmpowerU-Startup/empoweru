@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "empowerud2e1b8bc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
