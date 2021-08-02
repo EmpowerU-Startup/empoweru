@@ -18,3 +18,9 @@ If when loading the expo app on the phone it returns an error, the following com
 
 	expo install @react-native-async-storage/async-storage
     expo install @react-native-community/netinfo
+
+## Resources for App
+
+1. Onboarding Screens: https://www.youtube.com/watch?v=r2NJJye0XnM & https://www.youtube.com/watch?v=Efy48Uoa4RM (DONE)
+2. Navigating from Home Screen to Onboarding Screens: https://www.youtube.com/watch?v=ufvDlmDg2L4 (TODO)
+3. Custom Bottom Tab Navigator: https://www.youtube.com/watch?v=gPaBicMaib4 (TODO)
