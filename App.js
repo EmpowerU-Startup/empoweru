@@ -17,7 +17,6 @@ import { createStackNavigator } from 'react-navigation-stack';
 //   },
 // });
 
-
 // import { withAuthenticator } from 'aws-amplify-react-native';
 
 // App Navigator
