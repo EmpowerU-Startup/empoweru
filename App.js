@@ -7,7 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
-function Home(){
+function Home({ navigation }){
   return (
     <View style={styles.container}>
       <ImageBackground source={home_screen} style={styles.home_screen}>
@@ -19,7 +19,7 @@ function Home(){
   )
 }
 
-function OnboardScreen() {
+function OnboardScreen({ navigation }) {
   return (
     <Onboard/>
   );
@@ -117,28 +117,28 @@ export default function App() {
   // );
 
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     flexDirection: 'column',
-//   },
-//   contain: {
-//     flex: 1, 
-//     backgroundColor: '#f8f8f8',
-//     alignItems: 'center',
-//     justifyContent: 'center'
-//   },
-//   home_screen: {
-//     flex: 1,
-//     resizeMode: 'cover',
-//     justifyContent: 'center',
-//     alignItems: 'center'
-//   },
-//   fixToText: {
-//     justifyContent: 'center',
-//     backgroundColor:'#F1427B'
-//   }
-// });
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+  },
+  contain: {
+    flex: 1, 
+    backgroundColor: '#f8f8f8',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  home_screen: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  fixToText: {
+    justifyContent: 'center',
+    backgroundColor:'#F1427B'
+  }
+});
 
 // wrap the App component as shown below
 // export default withAuthenticator(App);
