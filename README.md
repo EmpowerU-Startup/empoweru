@@ -22,5 +22,6 @@ If when loading the expo app on the phone it returns an error, the following com
 ## Resources for App
 
 1. Onboarding Screens: https://www.youtube.com/watch?v=r2NJJye0XnM & https://www.youtube.com/watch?v=Efy48Uoa4RM (DONE)
-2. Navigating from Home Screen to Onboarding Screens: https://www.youtube.com/watch?v=ufvDlmDg2L4 (TODO)
+2. Navigating from Home Screen to Onboarding Screens: https://reactnavigation.org/docs/getting-started (TODO)
+* Running into an error here: TypeError (maybe have installed older version of react-navigation but unable to uninstall it)
 3. Custom Bottom Tab Navigator: https://www.youtube.com/watch?v=gPaBicMaib4 (TODO)
