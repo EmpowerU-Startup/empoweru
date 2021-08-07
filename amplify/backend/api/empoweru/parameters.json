@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "empoweru",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authempowerud2e1b8bc",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
