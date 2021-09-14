@@ -6,6 +6,9 @@ import home_screen from './assets/home_screen.png';
 import Amplify from 'aws-amplify';
 import { Auth } from 'aws-amplify';
 import config from './src/aws-exports';
+import { NavigationContainer } from '@react-navigation/native';
+import Tabs from './navigation/tabs'
+
 Amplify.configure({
   ...config,
   Analytics: {
@@ -36,11 +39,14 @@ function App() {
 
 
   return (
-    <View style={styles.container}>
-      <Text> +  = React Native + Amplify </Text>
-      <Button title="Sign Out" color="tomato" onPress={signOut} />
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <View style={styles.container}>
+        <Text> +  = React Native + Amplify </Text>
+         <Button title="Sign Out" color="tomato" onPress={signOut} />
+        <StatusBar style="auto" />
+      </View>
+      <Tabs />
+    </NavigationContainer>
   );
 }
 
@@ -63,3 +69,4 @@ const styles = StyleSheet.create({
 
 // wrap the App component as shown below
 export default withAuthenticator(App);
+// export default App;
