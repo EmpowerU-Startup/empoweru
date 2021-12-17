@@ -7,7 +7,7 @@
  3. Install the Expo Go app on your iOS or Android device
  4. Clone this repo: `git clone https://github.com/EmpowerU-Startup/empoweru.git`
  5. `cd` into the empoweru directory
- 6. Run `npm install`
+ 6. Run `npm install` and `npm install expo-cli`
  7. The command `expo start` (and also `npm start`) should work and show a QR code. Scanning this with your phone should launch the Expo Go app
 
 ## AWS Amplify Setup
